@@ -1,8 +1,3 @@
-var terms=[
-    {"term_code":"201509","term_desc":"Fall 2015"},
-    {"term_code":"201501","term_desc":"Spring 2015"}
-]
-
 var Term = React.createClass({
   render: function(){
     return(
@@ -16,10 +11,13 @@ var Term = React.createClass({
 });
 
 var TermList = React.createClass({
+  getInitialState: function(){
+    return {terms: []};
+  },
   render: function(){
     return(
       <div className="termList">
-        {this.props.terms.map(function(term){
+        {this.state.terms.map(function(term){
           return <Term key={term.term_code} data={term}/>;
         })}
       </div>
@@ -67,6 +65,6 @@ var CourseList = React.createClass({
 
 
 React.render(
-  <TermList terms={terms} />,
+  <TermList url="data/termDept.json" />,
   document.getElementById('content')
 );
