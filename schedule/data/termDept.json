@@ -1,4 +1,5 @@
 var terms=[
+    {"term_code":"201501","term_desc":"Spring 2015"},
     {"term_code":"201509","term_desc":"Fall 2015"}
 ]
 var departments = [
