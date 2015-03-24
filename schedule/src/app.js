@@ -1,9 +1,11 @@
+React.initializeTouchEvents(true);
+
 var Term = React.createClass({
   render: function(){
     return(
       <li className="term">
         <div className="termCode">
-          {this.props.data.term_code} - {this.props.data.term_desc}
+          {this.props.data.term_desc}
         </div>
       </li>
     );
@@ -66,5 +68,5 @@ var CourseList = React.createClass({
 
 React.render(
   <TermList url="data/termDept.json" />,
-  document.getElementById('content')
+  document.getElementById('rootContainer')
 );
