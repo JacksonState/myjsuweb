@@ -1,0 +1,64 @@
+html, body, #map-canvas {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  padding:0; margin:0;
+}
+.hide {
+  display: none;
+}
+.navContainer {
+  width: 90%;
+  max-width: 600px;
+  position: absolute;
+  top: 10px; left: 0; right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+.navMenuBox {
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 2px;
+  box-shadow: rgba(0,0,0,.298039) 0px 1px 4px -1px;
+  overflow: hidden;
+  padding: 10px;
+}
+.locListContainer {
+  width: 90%;
+  max-width: 600px;
+  position: absolute;
+  top: 53px; left: 0; right: 0; bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+.locListScrollArea {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(215,219,233,0.9);
+  box-shadow: rgba(0,0,0,.298039) 0px 1px 4px -1px;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 5px;
+}
+.locListMenu {
+  width: 100%; height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.locListItem {
+  margin: 2px;
+  border-radius: 2px;
+  border: .7px solid #ddd;
+  background-color: rgba(255,255,255,1);
+  box-shadow: rgba(0,0,0,.298039) 0px 1px 4px -1px;
+  color: #555;
+  padding: 8px;
+}

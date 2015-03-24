@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JSU Walking Directions</title>
+    <meta charset="utf-8">
+    <meta name="description" content="JSU Main Campus Walking Directions">
+    <meta name="author" content="Randel Anderson<anderson.randel@gmail.com>">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+    <!-- CSS Here -->
+    <link rel="stylesheet" href="css/walk.css">
+
+    <!-- Javascript Here -->
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+
+
+    <div id="navContainer" class="navContainer">
+      <div id="navMenuBox" class="navMenuBox" onclick="toggleDisplay('locListContainer')">
+        <div id="navText">Select Destination ...</div>
+      </div>
+    </div>
+
+    <div id="locListContainer" class="locListContainer hide">
+      <div id="locListScrollArea" class="locListScrollArea">
+        <div id="locListMenu" class="locListMenu">
+          <div id="locListText"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Javascript Here -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyBWI7Ae6gOq0QhIeGBhA5-puDI9WckhFBg"></script>
+    <script type="application/javascript" src="js/fastclick.min.js"></script>
+    <script type="application/javascript" src="data/locations.json"></script>
+    <script type="application/javascript" src="js/walk.js"></script>
+  </body>
+</html>

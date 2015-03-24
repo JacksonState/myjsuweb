@@ -1,0 +1,770 @@
+var LOC_DATA = {locations: [
+{
+id: "ADM",
+source: "SIS",
+visible: true,
+name: "Administrative Tower",
+campusId: "M",
+latitude: 32.297234,
+longitude: -90.20669
+},
+{
+id: "ALXEH",
+source: "SIS",
+visible: true,
+name: "Alexander - East Hall",
+campusId: "M",
+latitude: 32.298267,
+longitude: -90.20722,
+address: "1400 J R Lynch Street\nPost Office Box 17155\nJackson, MS 39217"
+},
+{
+id: "ALXWH",
+source: "SIS",
+visible: true,
+name: "Alexander - West Hall",
+campusId: "M",
+latitude: 32.298275,
+longitude: -90.207726,
+address: "1400 J.R. Lynch Street\nPost Office Box 17154\nJackson, MS 39217"
+},
+{
+id: "BFR",
+source: "SIS",
+visible: true,
+name: "Benjamin F. Roberts Building",
+campusId: "M",
+latitude: 32.297157,
+longitude: -90.20805
+},
+{
+id: "BLA",
+source: "SIS",
+visible: true,
+name: "Blackburn Language Arts",
+campusId: "M",
+latitude: 32.2996,
+longitude: -90.20799
+},
+{
+id: "AY",
+source: "SIS",
+visible: true,
+name: "Charles Ayer Hall",
+campusId: "M",
+latitude: 32.29676,
+longitude: -90.20793
+},
+{
+id: "CFM",
+source: "SIS",
+visible: true,
+name: "Charles F. Moore Building",
+campusId: "M",
+latitude: 32.296764,
+longitude: -90.20669
+},
+{
+id: "COB",
+source: "SIS",
+visible: true,
+name: "College of Business Building",
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/cob.png",
+latitude: 32.296947,
+longitude: -90.20416
+},
+{
+id: "LIB",
+source: "SIS",
+visible: true,
+name: "Dollye M.E. Robinson Lib Arts",
+campusId: "M",
+latitude: 32.29648,
+longitude: -90.20515
+},
+{
+id: "ETSH",
+source: "SIS",
+visible: true,
+name: "Edgar T. Stewart Hall",
+campusId: "M",
+latitude: 32.297794,
+longitude: -90.21028,
+address: "1400 J.R. Lynch Street\nPost Office Box 17141\nJackson, MS 39217"
+},
+{
+id: "ENB",
+source: "SIS",
+visible: true,
+name: "Engineering Building",
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/engineering.png",
+latitude: 32.298576,
+longitude: -90.21307
+},
+{
+id: "JSH",
+source: "SIS",
+visible: true,
+name: "Ernest E. Just Hall of Science",
+campusId: "M",
+latitude: 32.29724,
+longitude: -90.20947
+},
+{
+id: "MB",
+source: "SIS",
+visible: true,
+name: "Frederick D. Hall Music Center",
+campusId: "M",
+latitude: 32.296917,
+longitude: -90.21082
+},
+{
+id: "HTS",
+source: "SIS",
+visible: true,
+name: "Henry T. Sampson Library",
+campusId: "M",
+latitude: 32.296204,
+longitude: -90.20733
+},
+{
+id: "HDH",
+source: "SIS",
+visible: true,
+name: "Heritage Dining Hall",
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/dininghall.png",
+latitude: 32.2981,
+longitude: -90.209755
+},
+{
+id: "SEB",
+source: "SIS",
+visible: true,
+name: "J. H. Jackson Coll of Ed. Bldg",
+campusId: "M",
+latitude: 32.29607,
+longitude: -90.21038
+},
+{
+id: "JYW",
+source: "SIS",
+visible: true,
+name: "J. Y. Woodard Building",
+campusId: "M",
+latitude: 32.295986,
+longitude: -90.209206
+},
+{
+id: "CU",
+source: "SIS",
+visible: true,
+name: "Jacob L. Reddix Hall",
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/reddix.png",
+latitude: 32.297935,
+longitude: -90.20838
+},
+{
+id: "JPSB",
+source: "SIS",
+visible: true,
+name: "John Peoples Jr. Science Bldg",
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/peoples.png",
+latitude: 32.29672,
+longitude: -90.21246
+},
+{
+id: "JWDH",
+source: "SIS",
+visible: true,
+name: "John W. Dixon Hall",
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/dixon.png",
+latitude: 32.29833,
+longitude: -90.21087,
+address: "1400 J.R. Lynch Street\nPost Office Box 17149\nJackson, MS 39217"
+},
+{
+id: "JH",
+source: "SIS",
+visible: true,
+name: "Johnson Hall",
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/johnson.png",
+latitude: 32.296127,
+longitude: -90.20684
+},
+{
+id: "JHA",
+source: "SIS",
+visible: true,
+name: "Johnson Hall Annex",
+campusId: "M",
+latitude: 32.295612,
+longitude: -90.206726
+},
+{
+id: "AAC",
+source: "SIS",
+visible: true,
+name: "Lee Williams Ath & Asmbly Bldg",
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/img/aac.png",
+latitude: 32.29978,
+longitude: -90.21179
+},
+{
+id: "MCAWS",
+source: "SIS",
+visible: true,
+name: "McAllister/Whiteside",
+campusId: "M",
+latitude: 32.29935,
+longitude: -90.21033,
+address: "1400 J.R. Lynch Street\nPost Office Box 17114\nJackson, MS 39217"
+},
+{
+id: "OIAB",
+source: "SIS",
+visible: true,
+name: "Old Industrial Arts Building",
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/industrialarts.png",
+latitude: 32.296146,
+longitude: -90.20875
+},
+{
+id: "PSB",
+source: "SIS",
+visible: true,
+name: "Plant Science Building",
+campusId: "M",
+latitude: 32.295708,
+longitude: -90.21362
+},
+{
+id: "UPA",
+source: "SIS",
+visible: true,
+name: "Rose E. McCoy Auditorium",
+campusId: "M",
+latitude: 32.298096,
+longitude: -90.21172
+},
+{
+id: "GYM",
+source: "SIS",
+visible: true,
+name: "T.B. Ellis Phy. Ed. Complex",
+campusId: "M",
+latitude: 32.294205,
+longitude: -90.20521
+},
+{
+id: "TRAN-E",
+source: "SIS",
+visible: true,
+name: "Transitional East Hall",
+campusId: "M",
+latitude: 32.300095,
+longitude: -90.209915,
+address: "1400 J.R. Lynch\nP.O. Box 17118\nJackson, MS 39217"
+},
+{
+id: "TRAN-H",
+source: "SIS",
+visible: true,
+name: "Transitional Hall",
+campusId: "M",
+latitude: 32.300083,
+longitude: -90.21055,
+address: "1400 J.R. Lynch\nPost Office Box 17118\nJackson, MS 39217"
+},
+{
+id: "WPCNTR",
+source: "SIS",
+visible: true,
+name: "Walter Payton Wellness Center",
+campusId: "M",
+latitude: 32.29474,
+longitude: -90.20422,
+address: "Walter Payton Drive\nJackson, MS 39217"
+},
+{
+id: "SCB",
+source: "CLOUD",
+visible: true,
+name: "JSU Student Center",
+type: [
+"Student Union"
+],
+typeId: [
+"Student Union"
+],
+campusId: "M",
+latitude: 32.297913,
+longitude: -90.206024
+},
+{
+id: "OUPA",
+source: "CLOUD",
+visible: true,
+name: "One University Place Apartments",
+type: [
+"On-Campus Apartments"
+],
+typeId: [
+"On-Campus Apartments"
+],
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/universityplace.png",
+latitude: 32.297707,
+longitude: -90.20542,
+address: "1100 J.R. Lynch Street Jackson, MS 39203"
+},
+{
+id: "FCB",
+source: "CLOUD",
+visible: true,
+name: "Facilities and Construction",
+type: [
+"Campus Care"
+],
+typeId: [
+"Campus Care"
+],
+campusId: "M",
+latitude: 32.29431,
+longitude: -90.20141,
+address: "P.O. Box 17460 Jackson, MS 39217-0360"
+},
+{
+id: "ZTHB",
+source: "CLOUD",
+visible: true,
+name: "Z.T. Hurbert HR Building",
+type: [
+"Human Resources"
+],
+typeId: [
+"Human Resources"
+],
+campusId: "M",
+latitude: 32.29626,
+longitude: -90.20608
+},
+{
+id: "CPD",
+source: "CLOUD",
+visible: true,
+name: "Campus Police Department",
+type: [
+"Department of Public Safety"
+],
+typeId: [
+"Department of Public Safety"
+],
+campusId: "M",
+latitude: 32.298817,
+longitude: -90.206085
+},
+{
+id: "MECB",
+source: "CLOUD",
+visible: true,
+name: "Mississippi E-Center",
+type: [
+"e-Center"
+],
+typeId: [
+"e-Center"
+],
+campusId: "301",
+latitude: 32.287422,
+longitude: -90.24155,
+address: "1230 Raymond Rd. Jackson, MS 39204"
+},
+{
+id: "MC",
+source: "CLOUD",
+visible: true,
+name: "JSU Main Campus",
+type: [
+"Main Campus"
+],
+typeId: [
+"Main Campus"
+],
+campusId: "301",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/maincampus.png",
+latitude: 32.297813,
+longitude: -90.206856,
+address: "1400 J.R. Lynch St. Jackson, MS 39217"
+},
+{
+id: "MM",
+source: "CLOUD",
+visible: true,
+name: "Jackson Medical Mall",
+type: [
+"Medical Mall"
+],
+typeId: [
+"Medical Mall"
+],
+campusId: "301",
+latitude: 32.329937,
+longitude: -90.194244,
+address: "2548 Livingston Rd. Jackson, MS 39213"
+},
+{
+id: "RDC",
+source: "CLOUD",
+visible: true,
+name: "JSU Research and Development Center",
+type: [
+"R and D Center"
+],
+typeId: [
+"R and D Center"
+],
+campusId: "301",
+latitude: 32.338913,
+longitude: -90.14512,
+address: "3825 Ridgewood Rd Jackson, MS 39211"
+},
+{
+id: "MCB",
+source: "CLOUD",
+visible: true,
+name: "JSU Madison Campus",
+type: [
+"Madison Campus"
+],
+typeId: [
+"Madison Campus"
+],
+campusId: "301",
+latitude: 32.48709,
+longitude: -90.1256,
+address: "382 Galleria Parkway 110 Madison, MS 39110"
+},
+{
+id: "HCC",
+source: "CLOUD",
+visible: true,
+name: "Holmes Community College",
+type: [
+"Holmes CC"
+],
+typeId: [
+"Holmes CC"
+],
+campusId: "301",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/holmes.png",
+latitude: 32.436626,
+longitude: -90.13899,
+address: "412 W Ridgeland Ave Ridgeland, MS 39157 "
+},
+{
+id: "SRB",
+source: "CLOUD",
+visible: true,
+name: "Shipping and Receiving",
+type: [
+"Warehouse"
+],
+typeId: [
+"Warehouse"
+],
+campusId: "301",
+longDescription: "University Storage Warehouse",
+latitude: 32.295235,
+longitude: -90.22036,
+address: "1302 Hattiesburg St. Jackson, MS 39204"
+},
+{
+id: "MVMS",
+source: "CLOUD",
+visible: true,
+name: "Mississippi Veterans Memorial Stadium",
+type: [
+"Stadium"
+],
+typeId: [
+"Stadium"
+],
+campusId: "301",
+latitude: 32.32955,
+longitude: -90.17968,
+address: "2531 N. State St. Jackson, MS 39216"
+},
+{
+id: "DB",
+source: "CLOUD",
+visible: true,
+name: "JSU Downtown Campus",
+type: [
+"JSU Building"
+],
+typeId: [
+"JSU Building"
+],
+campusId: "301",
+latitude: 32.299835,
+longitude: -90.18871,
+address: "101 W. Capitol St. Jackson, MS, 39201"
+},
+{
+id: "TBEA",
+source: "CLOUD",
+visible: true,
+name: "T.B. Ellis Annex",
+type: [
+""
+],
+typeId: [
+""
+],
+campusId: "M",
+latitude: 32.294476,
+longitude: -90.20474
+},
+{
+id: "UDOB",
+source: "CLOUD",
+visible: true,
+name: "University Departmental Offices",
+type: [
+"Offices"
+],
+typeId: [
+"Offices"
+],
+campusId: "M",
+latitude: 32.296444,
+longitude: -90.213066
+},
+{
+id: "JSB",
+source: "CLOUD",
+visible: true,
+name: "Jones-Sampson Hall",
+type: [
+"Technology Resources"
+],
+typeId: [
+"Technology Resources"
+],
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/jonessampson.png",
+latitude: 32.29551,
+longitude: -90.20779
+},
+{
+id: "URB",
+source: "CLOUD",
+visible: true,
+name: "University Recruitment",
+type: [
+"Recruitment"
+],
+typeId: [
+"Recruitment"
+],
+campusId: "M",
+latitude: 32.300526,
+longitude: -90.20741
+},
+{
+id: "UHC",
+source: "CLOUD",
+visible: true,
+name: "University Health Center",
+type: [
+"Health Center"
+],
+typeId: [
+"Health Center"
+],
+campusId: "M",
+latitude: 32.29909,
+longitude: -90.21088
+},
+{
+id: "TC",
+source: "CLOUD",
+visible: true,
+name: "Tennis Courts",
+type: [
+"Atheltics"
+],
+typeId: [
+"Atheltics"
+],
+campusId: "M",
+latitude: 32.295845,
+longitude: -90.20245
+},
+{
+id: "BF",
+source: "CLOUD",
+visible: true,
+name: "Baseball Field",
+type: [
+"Athletics"
+],
+typeId: [
+"Athletics"
+],
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/baseball.png",
+latitude: 32.296722,
+longitude: -90.20107
+},
+{
+id: "SF",
+source: "CLOUD",
+visible: true,
+name: "Soccer Fields",
+type: [
+"Athletics"
+],
+typeId: [
+"Athletics"
+],
+campusId: "M",
+latitude: 32.295673,
+longitude: -90.19919,
+address: "810 Poindexter St. Jackson, MS 39204"
+},
+{
+id: "TPF",
+source: "CLOUD",
+visible: true,
+name: "Tiger Practice Field",
+type: [
+"Tiger Track"
+],
+typeId: [
+"Tiger Track"
+],
+campusId: "M",
+latitude: 32.294025,
+longitude: -90.202866
+},
+{
+id: "COFO",
+source: "CLOUD",
+visible: true,
+name: "COFO Complex",
+type: [
+"CR Complex"
+],
+typeId: [
+"CR Complex"
+],
+campusId: "M",
+latitude: 32.297325,
+longitude: -90.20175,
+address: "1013 John R. Lynch St. Jackson, MS 39203 "
+},
+{
+id: "IDC",
+source: "CLOUD",
+visible: true,
+name: "ID Center",
+type: [
+"ID Center"
+],
+typeId: [
+"ID Center"
+],
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/idcenter.png",
+latitude: 32.298424,
+longitude: -90.20816
+},
+{
+id: "ECB",
+source: "CLOUD",
+visible: true,
+name: "eCity",
+type: [
+"Resources"
+],
+typeId: [
+"Resources"
+],
+campusId: "M",
+imageUrl: "https://s3.amazonaws.com/jsums-mobile/map/ecity.png",
+latitude: 32.29571,
+longitude: -90.20611
+},
+{
+id: "CSN",
+source: "CLOUD",
+visible: true,
+name: "Campbell Suites North",
+type: [
+"Dormitory"
+],
+typeId: [
+"Dormitory"
+],
+campusId: "M",
+latitude: 32.298416,
+longitude: -90.20936
+},
+{
+id: "CSS",
+source: "CLOUD",
+visible: true,
+name: "Campbell Suites South",
+type: [
+"Dormitory"
+],
+typeId: [
+"Dormitory"
+],
+campusId: "M",
+latitude: 32.297817,
+longitude: -90.20893
+},
+{
+id: "PA",
+source: "CLOUD",
+visible: true,
+name: "The Palisades Apartments",
+type: [
+"Off Campus Apartments"
+],
+typeId: [
+"Off Campus Apartments"
+],
+campusId: "M",
+latitude: 32.294647,
+longitude: -90.21506,
+address: "1400 Valley St. Jackson, MS 39204"
+},
+{
+id: "SBF",
+source: "CLOUD",
+visible: true,
+name: "Softball Field",
+type: [
+"Athletics"
+],
+typeId: [
+"Athletics"
+],
+campusId: "M",
+latitude: 32.295135,
+longitude: -90.20075
+}
+]};
