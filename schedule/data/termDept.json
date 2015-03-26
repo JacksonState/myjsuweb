@@ -1,44 +1,46 @@
-var terms=[
+{
+  "terms": [
     {"term_code":"201501","term_desc":"Spring 2015"},
     {"term_code":"201509","term_desc":"Fall 2015"}
-]
-var departments = [
+  ],
+  "departments": [
     {"dept_code":"BIOL","dept_name":"Biology"},
-    {"dept_code":"UCGD","dept_name":"Graduate/Undecided Major"} 
-    {"dept_code":"INTL","dept_name":"International Programs"}, 
-    {"dept_code":"EDFL","dept_name":"Educational Found & Leadership"}, 
-    {"dept_code":"MKTG","dept_name":"Management & Marketing"}, 
-    {"dept_code":"URP","dept_name":"Urban & Regional Planning"} 
-    {"dept_code":"UCUN","dept_name":"Undergraduate/Undecided Major"},  
-    {"dept_code":"ENTR","dept_name":"Entrepreneurship & Prof. Devel"}, 
-    {"dept_code":"COUN","dept_name":"School, Comm &Rehab Counseling"}, 
-    {"dept_code":"PHAG","dept_name":"Physics, Atmospheric & Geo Sci"}, 
-    {"dept_code":"ENGL","dept_name":"English & Modern Foreign Lang"},  
-    {"dept_code":"SPDA","dept_name":"Speech & Theatre"} 
-    {"dept_code":"SPED","dept_name":"Special Education"},  
-    {"dept_code":"CURR","dept_name":"Curriculum & Instruction"} 
-    {"dept_code":"CIEN","dept_name":"Civil Engineering"},  
+    {"dept_code":"UCGD","dept_name":"Graduate/Undecided Major"},
+    {"dept_code":"INTL","dept_name":"International Programs"},
+    {"dept_code":"EDFL","dept_name":"Educational Found & Leadership"},
+    {"dept_code":"MKTG","dept_name":"Management & Marketing"},
+    {"dept_code":"URP","dept_name":"Urban & Regional Planning"},
+    {"dept_code":"UCUN","dept_name":"Undergraduate/Undecided Major"},
+    {"dept_code":"ENTR","dept_name":"Entrepreneurship & Prof. Devel"},
+    {"dept_code":"COUN","dept_name":"School, Comm &Rehab Counseling"},
+    {"dept_code":"PHAG","dept_name":"Physics, Atmospheric & Geo Sci"},
+    {"dept_code":"ENGL","dept_name":"English & Modern Foreign Lang"},
+    {"dept_code":"SPDA","dept_name":"Speech & Theatre"},
+    {"dept_code":"SPED","dept_name":"Special Education"},
+    {"dept_code":"CURR","dept_name":"Curriculum & Instruction"},
+    {"dept_code":"CIEN","dept_name":"Civil Engineering"},
     {"dept_code":"HIST","dept_name":"History"},
-    {"dept_code":"SW","dept_name":"Social Work"},  
-    {"dept_code":"TECH","dept_name":"Technology"}, 
-    {"dept_code":"PHS","dept_name":"Public Health Science"} 
-    {"dept_code":"CJSO","dept_name":"Criminal Just & Sociology"},  
-    {"dept_code":"ART","dept_name":"Art"}, 
+    {"dept_code":"SW","dept_name":"Social Work"},
+    {"dept_code":"TECH","dept_name":"Technology"},
+    {"dept_code":"PHS","dept_name":"Public Health Science"},
+    {"dept_code":"CJSO","dept_name":"Criminal Just & Sociology"},
+    {"dept_code":"ART","dept_name":"Art"},
     {"dept_code":"MUS","dept_name":"Music Department"},
-    {"dept_code":"MS","dept_name":"Military Science"}, 
-    {"dept_code":"AEST","dept_name":"Aerospace Studies"},  
-    {"dept_code":"HCA","dept_name":"Health Care Administration"},  
-    {"dept_code":"COEN","dept_name":"Electrical andComputer Enginee"}, 
-    {"dept_code":"MC","dept_name":"Mass Communications"},  
+    {"dept_code":"MS","dept_name":"Military Science"},
+    {"dept_code":"AEST","dept_name":"Aerospace Studies"},
+    {"dept_code":"HCA","dept_name":"Health Care Administration"},
+    {"dept_code":"COEN","dept_name":"Electrical andComputer Enginee"},
+    {"dept_code":"MC","dept_name":"Mass Communications"},
     {"dept_code":"CSC","dept_name":"Computer Science"},
-    {"dept_code":"PRIS","dept_name":"Professional Interdis. Studies"}, 
-    {"dept_code":"EGBF","dept_name":"Economics, Finance & Gen Bus"} 
-    {"dept_code":"HPER","dept_name":"Health Physical Ed & Recreatio"}, 
-    {"dept_code":"MATH","dept_name":"Mathematics and Statistical Sc"}, 
+    {"dept_code":"PRIS","dept_name":"Professional Interdis. Studies"},
+    {"dept_code":"EGBF","dept_name":"Economics, Finance & Gen Bus"},
+    {"dept_code":"HPER","dept_name":"Health Physical Ed & Recreatio"},
+    {"dept_code":"MATH","dept_name":"Mathematics and Statistical Sc"},
     {"dept_code":"PS","dept_name":"Political Science"},
-    {"dept_code":"PPAD","dept_name":"Public Policy & Administration"}, 
+    {"dept_code":"PPAD","dept_name":"Public Policy & Administration"},
     {"dept_code":"CMDS","dept_name":"Communicative Disorders"},
-    {"dept_code":"CHEM","dept_name":"Chemistry"},  
-    {"dept_code":"ACCT","dept_name":"Accounting"}, 
+    {"dept_code":"CHEM","dept_name":"Chemistry"},
+    {"dept_code":"ACCT","dept_name":"Accounting"},
     {"dept_code":"PSY","dept_name":"Psychology"}
-]
+  ]
+}
