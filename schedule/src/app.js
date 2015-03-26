@@ -82,6 +82,6 @@ var CourseList = React.createClass({
 
 
 React.render(
-  <TermList url="data/termDept.json" />,
+  <TermList data="termDept" />,
   document.getElementById('rootContainer')
 );
