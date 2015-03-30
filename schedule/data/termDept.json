@@ -1,9 +1,9 @@
-var termDept = {
-  "terms": [
+var terms = [
     {"term_code":"201501","term_desc":"Spring 2015"},
     {"term_code":"201509","term_desc":"Fall 2015"}
-  ],
-  "departments": [
+]
+
+var departments = [
     {"dept_code":"BIOL","dept_name":"Biology"},
     {"dept_code":"UCGD","dept_name":"Graduate/Undecided Major"},
     {"dept_code":"INTL","dept_name":"International Programs"},
@@ -42,5 +42,4 @@ var termDept = {
     {"dept_code":"CHEM","dept_name":"Chemistry"},
     {"dept_code":"ACCT","dept_name":"Accounting"},
     {"dept_code":"PSY","dept_name":"Psychology"}
-  ]
-}
+]
