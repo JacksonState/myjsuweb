@@ -1,3 +1,4 @@
+var activeTerm = [];
 
 var TermListView = Backbone.View.extend({
 
